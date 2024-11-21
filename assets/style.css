@@ -123,6 +123,32 @@ header {
 }
 /* Code CSS en prévision de l'ajout d'un carousel pour la bannière */
 /* Gestion des fleches du carrousel */
+
+#banner {
+	position: relative;
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+
+.arrow {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 90px;
+	height: 90px;
+	cursor: pointer;
+	z-index: 10;
+}
+
+.left-arrow {
+	left: 50px;
+}
+
+.right-arrow {
+	right: 50px;
+}
+
 #banner .arrow {
 	position: absolute;
 }
