@@ -130,18 +130,16 @@ header {
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
-	width: 40px;
-	height: 40px;
 	cursor: pointer;
 	z-index: 10;
 }
 
 .left-arrow {
-	left: 50px;
+	left: 10px;
 }
 
 .right-arrow {
-	right: 50px;
+	right: 10px;
 }
 
 #banner .arrow {
