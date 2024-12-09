@@ -130,8 +130,8 @@ header {
 	position: absolute;
 	top: 50%;
 	transform: translateY(-50%);
-	width: 90px;
-	height: 90px;
+	width: 40px;
+	height: 4s0px;
 	cursor: pointer;
 	z-index: 10;
 }
